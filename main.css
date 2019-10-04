@@ -1,0 +1,52 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+#ntsc {
+    width: 648px;
+    height: 486px;
+}
+
+#pal {
+    width: 720px;
+    height: 486px;
+}
+
+#hd-ready {
+    width: 1280px;
+    height: 720px;
+}
+
+#full-hd {
+    width: 1920px;
+    height: 1080px;
+}
+
+span.text {
+  color: white;
+    margin-top: 10px;
+}
+
+.next-resolution {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.tv {
+    display: flex;
+    background: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv:after {
+    font-family: "Times New Roman";
+    width: 50%;
+    font-size: 14px;
+    color: black;
+    content: 'Telewizja Polska S.A. przeprasza Konfederację Wolność i Niepodległość za to, że w wyemitowanym w dniu 26 września 2019 roku głównym wydaniu „Wiadomości” przedstawiono niepelne informacje na temat wyników sondażu poparcia dla partit politycznych przeprowadzonego przez Instytut Badań Pollsterdla „SuperExpressu”. Przeprasza za to, że celowo pominięto ogólny wynik Konfederacji oraz wynik Konfederacji wśród młodych wyborców, a także fakt, że według wyników prezentowanego sondażu Konfederacja osiągnęła próg wyborczy oraz podała nieprawdziwą prognozę podziału mandatów w przyszłym Sejmie pomijając mandat przewidywany dla Konfederacji.';
+    display: block;
+}
